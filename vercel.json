@@ -8,5 +8,12 @@
       "source": "/vaders-travels/:path+",
       "destination": "https://vaders-travels.vercel.app/vaders-travels/:path"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/vaders-travels/",
+      "destination": "/vaders-travels",
+      "permanent": true
+    }
   ]
 }

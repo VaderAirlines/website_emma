@@ -7,12 +7,25 @@
     {
       "source": "/vaders-travels/:path+",
       "destination": "https://vaders-travels.vercel.app/vaders-travels/:path"
+    },
+    {
+      "source": "/negotiation_station",
+      "destination": "https://negotiationstation.vercel.app/negotiation_station"
+    },
+    {
+      "source": "/negotiation_station/:path+",
+      "destination": "https://negotiationstation.vercel.app/negotiation_station/:path"
     }
   ],
   "redirects": [
     {
       "source": "/vaders-travels/",
       "destination": "/vaders-travels",
+      "permanent": true
+    },
+    {
+      "source": "/negotiation_station/",
+      "destination": "/negotiation_station",
       "permanent": true
     }
   ]

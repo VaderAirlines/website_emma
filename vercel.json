@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/vaders-travels/:path*",
+      "destination": "https://vaders-travels.vercel.app/vaders-travels/:path*"
+    }
+  ]
+}

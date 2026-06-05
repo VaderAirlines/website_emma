@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/vaders-travels/:path*",
-      "destination": "https://vaders-travels.vercel.app/vaders-travels/:path*"
+      "source": "/vaders-travels",
+      "destination": "https://vaders-travels.vercel.app/vaders-travels"
+    },
+    {
+      "source": "/vaders-travels/:path+",
+      "destination": "https://vaders-travels.vercel.app/vaders-travels/:path"
     }
   ]
 }
